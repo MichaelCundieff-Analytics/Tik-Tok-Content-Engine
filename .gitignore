@@ -1,0 +1,11 @@
+.env
+venv/
+__pycache__/
+*.pyc
+output/voiceovers/
+output/videos/
+output/metadata/
+logs/
+*.mp3
+*.mp4
+.DS_Store

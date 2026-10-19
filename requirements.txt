@@ -1,0 +1,19 @@
+# Core
+python-dotenv==1.1.0
+anthropic==0.52.0
+openai==1.82.0
+
+# Video rendering
+moviepy==2.1.2
+Pillow==10.4.0
+
+# TTS (optional ElevenLabs)
+elevenlabs==1.13.5
+
+# TikTok API
+requests==2.32.3
+
+# Utilities
+pandas==2.2.3
+schedule==1.2.2
+pydantic==2.11.1

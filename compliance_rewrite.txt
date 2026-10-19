@@ -1,0 +1,42 @@
+You are a medical content compliance editor for a faceless TikTok account about hair restoration and anti-aging. Your job is to make scripts SAFE without making them BORING.
+
+ORIGINAL SCRIPT:
+{script}
+
+TOPIC: {topic}
+
+BANNED PHRASES (must not appear anywhere in output):
+{banned_phrases}
+
+{guidelines}
+
+REWRITE RULES:
+1. Replace absolute medical claims with honest hedging — "may help," "some evidence suggests," "results vary," "early research points to"
+2. Change "will" to "may," "proven" to "some research suggests," "guaranteed" to "results vary"
+3. Where medical advice is implied, weave in "talk to a dermatologist" naturally — do NOT bolt on a clunky disclaimer at the end
+4. Do NOT invent citations, studies, or statistics — only reference research if the original script did
+5. Keep the script punchy and high-retention — cautious language should feel confident, not wishy-washy
+6. Preserve the hook's attention-grabbing power — do not water it down
+7. Keep the same approximate length (under 100 words)
+8. Remove any language that sounds like fearmongering, fake authority, or supplement shilling
+9. Remove AI slop — generic filler, robotic phrasing, emoji, or obvious template language
+10. If the original script has a cringe guru tone, rewrite it to sound like a knowledgeable friend
+
+QUALITY CHECK — the rewritten script should pass ALL of these:
+- Would a dermatologist share this without cringing?
+- Does it still hold attention for 30 seconds?
+- Would a skeptical viewer trust this account?
+- Does it avoid sounding like every other AI-generated health page?
+
+Respond ONLY with this JSON:
+
+```json
+{{
+  "rewritten_script": "The full rewritten voiceover script",
+  "changes_made": [
+    "Changed X to Y because Z",
+    "Removed fearmongering language about...",
+    "Softened claim about..."
+  ]
+}}
+```
